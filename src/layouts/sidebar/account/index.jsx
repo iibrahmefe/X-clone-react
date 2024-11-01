@@ -1,9 +1,13 @@
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react"
 import { useAccount } from "~/store/auth/hook"
+
+
 export default function Account() {
+
     const account = useAccount()
+
     return (
-        <div className="mt-auto ">
+        <div className="mt-auto">
             <Popover className="relative ">
                 <PopoverButton className="my-3 p-3 rounded-full hover:bg-[#eff3f41a] w-full flex items-center outline-none text-left">
                     <img src={account.avatar} alt="" className="h-10 w-10 rounded-full" />

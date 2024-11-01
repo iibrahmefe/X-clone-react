@@ -159,7 +159,7 @@ export const MainMenu = [
 		}
 	},
 	{
-		path: `/${states?.auth ?.currentAccount ?.username}`,
+		path: `/${states?.auth?.currentAccount?.username}`,
 		title: 'Profil',
 		icon: {
 			active: (
@@ -179,5 +179,69 @@ export const MainMenu = [
 				</svg>
 			)
 		}
+	}
+]
+
+
+export const topics = [
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'tag',
+			value: 'dilanpolat'
+		}
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'query',
+			value: 'Starlink'
+		},
+		postCount: 15640
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'tag',
+			value: 'dilanpolat'
+		}
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'query',
+			value: 'Starlink'
+		},
+		postCount: 15640
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'tag',
+			value: 'dilanpolat'
+		}
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'query',
+			value: 'Starlink'
+		},
+		postCount: 15640
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'tag',
+			value: 'dilanpolat'
+		}
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'query',
+			value: 'Starlink'
+		},
+		postCount: 15640
 	}
 ]
